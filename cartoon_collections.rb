@@ -25,7 +25,7 @@ def find_the_cheese(cheese)
   new_array = []
   cheese_types.each do |x|
     if cheese.include?(x)
-      new_array << x
+      new_array << "#{x}"
     end
   end
   if new_array.size < 0
