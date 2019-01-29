@@ -27,5 +27,5 @@ def find_the_cheese(cheese)
     while new_array.length < 1
       if cheese.include?(x)
         new_array << x
-      end
+    end
 end
