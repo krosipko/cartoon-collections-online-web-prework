@@ -28,5 +28,5 @@ def find_the_cheese(cheese)
   #  if cheese.include?(x)
   #    new_array << x
   #  end
-  end
+  #end
 end
