@@ -23,21 +23,6 @@ end
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   new_array = []
-  cheese_types.each do |x|
-    if cheese.include?("#{x}")
-      new_array << "#{x}"
-    end
-  end
-  if new_array.size < 0
-    new_array[0]
-  else
-    nil
-  end
-end
-
-def find_the_cheese(cheese)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  new_array = []
   cheese.each do |x|
     if cheese_types.include?(x)
       new_array << x
