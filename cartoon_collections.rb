@@ -28,9 +28,5 @@ def find_the_cheese(cheese)
       new_array << x
     end
   end
-  if new_array.size < 0
-    new_array[0]
-  else
-    nil 
-  end
+  new_array[0]
 end
