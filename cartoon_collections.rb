@@ -19,4 +19,3 @@ def long_planeteer_calls(names)
   end
   len.include? true
 end
-
