@@ -25,9 +25,9 @@ def find_the_cheese(cheese)
   cheese_types.each do |x|
   new_array = []
     while new_array.length < 1
-     if cheese.include?(x)
+      if cheese.include?(x)
        new_array << x
-     end
+      end
+    end
   end
-end
 end
